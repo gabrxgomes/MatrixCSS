@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin:0;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+}
+
+
+
+.left-content > h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 150px;
+    position: absolute;
+    font-size: 1.22vw;
+    color: #00ff6a;
+    background: transparent;
+    /*PASSANDO ATRIBUTOS ALEM DA FORMATAÇÃO NO ESPAÇO DO DISPLAY X E Y E TALS*/
+    letter-spacing: .1rem;
+    margin-left: 40px;
+    text-shadow: 3px 3px 6px #42da06c0;
+    
+    
+
+}
+
+.left-content > h2 {
+
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 0.8vw;
+    color: #00ff6a;
+    background: transparent;
+    /*PASSANDO ATRIBUTOS ALEM DA FORMATAÇÃO NO ESPAÇO DO DISPLAY X E Y E TALS*/
+    letter-spacing: .1rem;
+    margin-left: 40px;
+    line-height: 30px;
+    text-shadow: 3px 3px 6px #42da06c0;
+    
+    
+
+}
+
+
+.image{
+    margin-left: 330px;
+    margin-top: 450px;
+    width: 22vw;
+    position: absolute;
+    background: transparent;
+    
+    filter: drop-shadow(0 0 0.75rem #42da06c0); /* EFEITO NA IMAGEM*/
+
+}
+
+
+
+.canvas {
+    position: static;
+    width: 100%; /*largura*/
+    height: 48.8vw; /*altura*/
+    
+}
+
+@media only screen and (max-width: 937px){
+
+    .canvas{
+        position: static;
+        width: 100%; /*largura*/
+        height: 110vw; /*altura*/
+    }
+
+    .left-content{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .canvas{
+        position: static;
+        width: 100%; /*largura*/
+        height: 110vw; /*altura*/
+    }
+
+    .left-content{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1669px){
+
+    .canvas{
+        position: static;
+        width: 100%; /*largura*/
+        height: 80vw; /*altura*/
+    }
+
+    .left-content{
+        width: 85%;
+    }
+}
